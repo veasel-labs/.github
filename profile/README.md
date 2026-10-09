@@ -8,6 +8,11 @@
 
 </div>
 
+[![Veasel Code CI](https://github.com/veasel-labs/veasel/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/veasel-labs/veasel/actions/workflows/ci.yml)
+[![Website CI](https://github.com/veasel-labs/website/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/veasel-labs/website/actions/workflows/ci.yml)
+[![Latest preview](https://img.shields.io/github/v/release/veasel-labs/veasel?include_prereleases&label=Veasel%20Code%20preview)](https://github.com/veasel-labs/veasel/releases)
+[![Website](https://img.shields.io/badge/website-veasel.dev-3b6b54)](https://www.veasel.dev/)
+
 Veasel Labs builds developer tools in [V](https://vlang.io/), with a focus on
 native performance, understandable behavior, and practical AI workflows.
 
