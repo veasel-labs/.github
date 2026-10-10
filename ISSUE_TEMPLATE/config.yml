@@ -3,3 +3,9 @@ contact_links:
   - name: Veasel Code community discussions
     url: https://github.com/veasel-labs/veasel/discussions
     about: Ask questions and share ideas with the Veasel Labs community.
+  - name: Report a Veasel Code security vulnerability privately
+    url: https://github.com/veasel-labs/veasel/security/advisories/new
+    about: Do not disclose suspected vulnerabilities in a public issue.
+  - name: Report a website security vulnerability privately
+    url: https://github.com/veasel-labs/website/security/advisories/new
+    about: Do not disclose suspected vulnerabilities in a public issue.

@@ -1,0 +1,55 @@
+name: Bug report
+description: Report behavior that does not match what Veasel Labs documents.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the project's compatibility notes first. Never include API keys, private prompts, personal data, or proprietary source code.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Veasel Code, the website, or another Veasel Labs repository.
+      placeholder: Veasel Code
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened?
+      description: Include the exact error and the smallest useful context.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run ...
+        2. Choose ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: 0.6.2-next.0
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, architecture, V version, terminal, and provider where relevant.
+    validations:
+      required: false

@@ -1,5 +1,6 @@
 # Veasel Labs community health
 
+[![Community file checks](https://github.com/veasel-labs/.github/actions/workflows/validate-community.yml/badge.svg?branch=main)](https://github.com/veasel-labs/.github/actions/workflows/validate-community.yml)
 [![Veasel Code CI](https://github.com/veasel-labs/veasel/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/veasel-labs/veasel/actions/workflows/ci.yml)
 [![Website CI](https://github.com/veasel-labs/website/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/veasel-labs/website/actions/workflows/ci.yml)
 [![Website](https://img.shields.io/badge/website-veasel.dev-3b6b54)](https://www.veasel.dev/)
@@ -15,8 +16,13 @@ security reporting instructions in each repository take precedence.
 - [Contributing](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
 - [Support channels](SUPPORT.md)
+- [Bug report form](ISSUE_TEMPLATE/bug.yml)
+- [Feature request form](ISSUE_TEMPLATE/feature.yml)
+- [Pull request template](PULL_REQUEST_TEMPLATE.md)
 - [Issue form settings](ISSUE_TEMPLATE/config.yml)
 - [Organization profile](profile/README.md)
+- [Community validation workflow](.github/workflows/validate-community.yml)
+- [GitHub Actions update schedule](.github/dependabot.yml)
 
 ## Repositories
 
