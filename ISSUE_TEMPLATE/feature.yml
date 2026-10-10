@@ -1,0 +1,37 @@
+name: Feature request
+description: Describe a user problem and a useful outcome.
+title: "feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues and discussions first. Describe the need without including private prompts, credentials, or proprietary source code.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Veasel Code, the website, or another Veasel Labs repository.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Explain who is affected and what they are trying to do.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful outcome look like?
+      description: Describe observable behavior; implementation ideas are optional.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or constraints
+    validations:
+      required: false
