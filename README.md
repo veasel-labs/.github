@@ -29,7 +29,12 @@ security reporting instructions in each repository take precedence.
 - [Veasel Code](https://github.com/veasel-labs/veasel) — V-native coding agent
   runtime, terminal client, and provider integrations.
 - [Website and field guide](https://github.com/veasel-labs/website) — product
-  documentation, downloads, and project roadmap.
+  documentation (including [MCP servers](https://www.veasel.dev/docs/mcp/)),
+  downloads, and project roadmap.
+- [Homebrew tap](https://github.com/veasel-labs/homebrew-tap) — official macOS
+  cask for verified preview releases.
+- [AUR package](https://github.com/veasel-labs/aur-package) — Arch Linux
+  `veasel-code-bin` packaging for the same verified Linux previews.
 
 ## Issue labels
 
