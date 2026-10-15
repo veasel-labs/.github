@@ -22,8 +22,10 @@ native performance, understandable behavior, and practical AI workflows.
   V-native coding assistant in active development. Follow its implementation
   status and compatibility notes before relying on features still in progress.
 - **[veasel.dev](https://www.veasel.dev/)** — the project home, field guide
-  (including [MCP servers](https://www.veasel.dev/docs/mcp/)), API reference,
-  and current roadmap.
+  (including [MCP servers](https://www.veasel.dev/docs/mcp/),
+  [TUI](https://www.veasel.dev/docs/tui/), and honest
+  [evals status](https://www.veasel.dev/evals/)), API reference, and current
+  roadmap.
 - **[homebrew-tap](https://github.com/veasel-labs/homebrew-tap)** — official
   Homebrew cask for verified macOS previews (`brew tap veasel-labs/tap`).
 - **[aur-package](https://github.com/veasel-labs/aur-package)** — AUR
