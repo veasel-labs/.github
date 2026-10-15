@@ -21,8 +21,13 @@ native performance, understandable behavior, and practical AI workflows.
 - **[Veasel Code](https://github.com/veasel-labs/veasel)** — an open-source,
   V-native coding assistant in active development. Follow its implementation
   status and compatibility notes before relying on features still in progress.
-- **[veasel.dev](https://www.veasel.dev/)** — the project home, field guide,
-  API reference, and current roadmap.
+- **[veasel.dev](https://www.veasel.dev/)** — the project home, field guide
+  (including [MCP servers](https://www.veasel.dev/docs/mcp/)), API reference,
+  and current roadmap.
+- **[homebrew-tap](https://github.com/veasel-labs/homebrew-tap)** — official
+  Homebrew cask for verified macOS previews (`brew tap veasel-labs/tap`).
+- **[aur-package](https://github.com/veasel-labs/aur-package)** — AUR
+  `veasel-code-bin` packaging that tracks the same verified Linux prereleases.
 
 ## How we work
 
