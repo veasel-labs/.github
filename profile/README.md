@@ -4,7 +4,7 @@
 
 # Veasel Labs
 
-### A curious little mascot. A serious commitment to open software.
+### A curious pixel weasel. A serious commitment to open software.
 
 [veasel.dev](https://www.veasel.dev) · [Veasel Code](https://github.com/veasel-labs/veasel) · [Community](https://github.com/veasel-labs/veasel/discussions)
 
