@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/veasel-labs/.github/main/assets/veasel-labs-logo.png" alt="Veasel Labs logo" width="128">
+<img src="../assets/veasel-labs-logo.png" alt="Veasel Labs logo" width="128">
 
 # Veasel Labs
 
