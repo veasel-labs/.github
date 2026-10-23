@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="../assets/veasel-labs-logo.png" alt="Veasel Labs logo" width="128">
+
 # Veasel Labs
 
 ### A curious little mascot. A serious commitment to open software.
