@@ -1,9 +1,8 @@
 # Brand assets
 
-`veasel-labs-avatar.png` is an original pixel-art portrait of Veasel, generated
-with the current website companion as a visual reference. Its 500×500 opaque
-canvas places the russet-and-cream face and teal scarf within GitHub's circular
-avatar crop.
+`veasel-labs-avatar-v2.png` is an original pixel-art portrait of Veasel, created
+from the website companion as a visual reference and composed for GitHub's
+circular avatar crop. Its opaque 500×500 PNG uses 16 colors and is about 15 KiB.
 
 The official V mascot artwork in [vlang/v-mascot](https://github.com/vlang/v-mascot)
 is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
