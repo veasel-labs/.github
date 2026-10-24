@@ -9,7 +9,7 @@ This repository supplies shared community health files for public Veasel Labs
 repositories. GitHub uses supported files here as defaults when a repository
 does not provide its own version. Product-specific contribution steps and
 security reporting instructions in each repository take precedence.
-The organization avatar reuses the original MIT-licensed pixel companion from the Veasel Code website.
+The organization avatar uses original Veasel Labs pixel-art character artwork; its russet-and-cream fur and teal scarf match the current website companion.
 
 ## Shared guidance
 
