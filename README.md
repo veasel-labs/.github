@@ -22,6 +22,7 @@ The organization avatar reuses the original MIT-licensed pixel companion from th
 - [Pull request template](PULL_REQUEST_TEMPLATE.md)
 - [Issue form settings](ISSUE_TEMPLATE/config.yml)
 - [Organization profile](profile/README.md)
+- [Brand asset provenance](assets/README.md)
 - [Community validation workflow](.github/workflows/validate-community.yml)
 - [GitHub Actions update schedule](.github/dependabot.yml)
 
