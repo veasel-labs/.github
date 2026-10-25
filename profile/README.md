@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/veasel-labs-avatar.png" alt="Veasel Labs pixel-art mascot portrait" width="160">
+<img src="../assets/veasel-labs-avatar-v3.png" alt="Veasel Labs pixel-art weasel avatar emblem" width="160">
 
 # Veasel Labs
 

@@ -9,10 +9,7 @@ This repository supplies shared community health files for public Veasel Labs
 repositories. GitHub uses supported files here as defaults when a repository
 does not provide its own version. Product-specific contribution steps and
 security reporting instructions in each repository take precedence.
-The organization avatar is a dedicated square pixel-art portrait of the original
-Veasel mascot, with a dark navy field tuned for GitHub's small circular avatar.
-The matching website mascot and avatar are original artwork under the MIT license;
-neither uses or adapts the V language project's official mascot.
+The organization avatar uses original Veasel Labs pixel-art character artwork; its russet-and-cream fur and teal scarf match the current website companion.
 
 ## Shared guidance
 
@@ -25,6 +22,7 @@ neither uses or adapts the V language project's official mascot.
 - [Pull request template](PULL_REQUEST_TEMPLATE.md)
 - [Issue form settings](ISSUE_TEMPLATE/config.yml)
 - [Organization profile](profile/README.md)
+- [Brand asset provenance](assets/README.md)
 - [Community validation workflow](.github/workflows/validate-community.yml)
 - [GitHub Actions update schedule](.github/dependabot.yml)
 
