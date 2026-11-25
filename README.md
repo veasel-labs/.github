@@ -15,6 +15,7 @@ The organization avatar uses original Veasel Labs pixel-art character artwork; i
 
 - [Code of conduct](CODE_OF_CONDUCT.md)
 - [Contributing](CONTRIBUTING.md)
+- [Release and automation ownership](RELEASE_GOVERNANCE.md)
 - [Security policy](SECURITY.md)
 - [Support channels](SUPPORT.md)
 - [Bug report form](ISSUE_TEMPLATE/bug.yml)
@@ -29,7 +30,7 @@ The organization avatar uses original Veasel Labs pixel-art character artwork; i
 ## Repositories
 
 - [Veasel Code](https://github.com/veasel-labs/veasel) — V-native coding agent
-  runtime, terminal client, and provider integrations.
+  runtime, terminal client, Desktop, and provider integrations.
 - [Website and field guide](https://github.com/veasel-labs/website) — product
   documentation (including [MCP servers](https://www.veasel.dev/docs/mcp/)),
   downloads, and project roadmap.
@@ -37,6 +38,9 @@ The organization avatar uses original Veasel Labs pixel-art character artwork; i
   cask for verified preview releases.
 - [AUR package](https://github.com/veasel-labs/aur-package) — Arch Linux
   `veasel-code-bin` packaging for the same verified Linux previews.
+
+- [Official plugin marketplace](https://github.com/veasel-labs/agent-toolkit)
+  — reviewed registry and generated client manifests.
 
 ## Issue labels
 

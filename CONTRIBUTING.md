@@ -10,3 +10,4 @@ credentials, private prompts, customer data, or unreleased vulnerabilities.
 Before opening a pull request, describe the user need, the change, the checks
 you ran, and any security or performance impact. For visual changes, include
 desktop and mobile screenshots. Do not present planned features as supported.
+Include links to failing CI runs when reporting a verification problem.
