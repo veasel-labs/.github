@@ -7,6 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const requiredFiles = [
   "README.md",
   "CONTRIBUTING.md",
+  "RELEASE_GOVERNANCE.md",
   "CODE_OF_CONDUCT.md",
   "SECURITY.md",
   "SUPPORT.md",
