@@ -29,8 +29,9 @@ The organization avatar uses original Veasel Labs pixel-art character artwork; i
 
 ## Repositories
 
-- [Veasel Code](https://github.com/veasel-labs/veasel) — V-native coding agent
-  runtime, terminal client, Desktop, and provider integrations.
+- [Veasel Code](https://github.com/veasel-labs/veasel) — the V-native coding
+  agent runtime and backend, with TUI and Desktop clients that share its
+  versioned HTTP API, plus provider integrations.
 - [Website and field guide](https://github.com/veasel-labs/website) — product
   documentation (including [MCP servers](https://www.veasel.dev/docs/mcp/)),
   downloads, and project roadmap.

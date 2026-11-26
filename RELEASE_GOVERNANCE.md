@@ -1,7 +1,9 @@
 # Release and automation ownership
 
-[Veasel Code](https://github.com/veasel-labs/veasel) owns the coding runtime,
-TUI, Desktop, and release manifest. The personal
+[Veasel Code](https://github.com/veasel-labs/veasel) owns the single V-native
+coding runtime and backend, the versioned HTTP API, TUI and Desktop clients
+that use that API, and the release manifest. Clients share this backend rather
+than owning duplicate runtimes. The personal
 [Agent Toolkit](https://github.com/ulises-jeremias/agent-toolkit) supplies
 portable capabilities and has its own release schedule. The Veasel Labs
 [plugin marketplace](https://github.com/veasel-labs/agent-toolkit) references
@@ -11,7 +13,7 @@ reviewed plugins by version and commit.
 
 | Repository | Responsibility | Evidence to retain |
 | --- | --- | --- |
-| [veasel](https://github.com/veasel-labs/veasel) | Build and publish immutable Veasel releases. | Tag, source commit, asset digests, platform/build results, installer signature status, and separately recorded installed-product acceptance. |
+| [veasel](https://github.com/veasel-labs/veasel) | Build and publish immutable releases of the V runtime/backend, versioned HTTP API, and TUI and Desktop clients. | Tag, source commit, asset digests, platform/build results, installer signature status, and separately recorded installed-product acceptance. |
 | [website](https://github.com/veasel-labs/website) | Publish the download links, shipped capability information, and user journeys. | Exact deployed commit and the manifest tag and digests shown on the public downloads page. |
 | [homebrew-tap](https://github.com/veasel-labs/homebrew-tap) | Distribute the declared macOS package. | Reviewed package commit and install, upgrade, version, and uninstall checks against the intended release. |
 | [aur-package](https://github.com/veasel-labs/aur-package) | Maintain the Arch packaging mirror and publish the AUR package. | Reviewed package commit, build validation, and an AUR lookup confirming the published package version. |
