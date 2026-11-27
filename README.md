@@ -16,6 +16,7 @@ The organization avatar uses original Veasel Labs pixel-art character artwork; i
 - [Code of conduct](CODE_OF_CONDUCT.md)
 - [Contributing](CONTRIBUTING.md)
 - [Release and automation ownership](RELEASE_GOVERNANCE.md)
+- [Cross-repository release acceptance](RELEASE_GOVERNANCE.md#cross-repository-release-acceptance)
 - [Security policy](SECURITY.md)
 - [Support channels](SUPPORT.md)
 - [Bug report form](ISSUE_TEMPLATE/bug.yml)
