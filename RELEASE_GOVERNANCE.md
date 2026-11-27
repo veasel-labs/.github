@@ -25,6 +25,59 @@ its expected tag, source commit and asset digest. Verify the deployed website
 and published package separately from their repository state. A published
 installer can still have pending real-device acceptance.
 
+## Cross-repository release acceptance
+
+Track distribution and product acceptance as separate results. Passing CI or
+publishing a tag proves neither that every consumer serves the same build nor
+that a person can complete real work with the installed product.
+
+### Release identity and build
+
+- [ ] Record the release tag and full source commit from the immutable Veasel
+  release manifest.
+- [ ] Confirm required Linux, macOS, Windows, TUI, Desktop, security, and
+  packaging checks passed for that source commit. A stale green run does not
+  count after the release candidate changed.
+- [ ] Verify `release.json`, `SHA256SUMS`, signatures where published, and
+  platform asset names against the built artifacts.
+
+### Consumer synchronization
+
+- [ ] Website deployment serves the intended release tag and links to its
+  exact assets and checksums; record the deployed commit and public URLs.
+- [ ] Homebrew points at the same tag and asset digest; install, upgrade, show
+  the expected `--version`, and uninstall in a disposable environment.
+- [ ] AUR builds the same release; verify the published package version and
+  the documented CLI/TUI and optional Desktop installation paths.
+- [ ] Record each consumer repository commit and CI result. Do not infer
+  publication from a merged PR or infer correctness from repository files
+  alone.
+
+### Installed-product acceptance
+
+- [ ] Install the actual release on each required daily-driver host from the
+  product's acceptance plan. For the current Veasel pilot, include HorneroOS
+  as recorded in the [Veasel implementation plan](https://github.com/veasel-labs/veasel/blob/main/docs/IMPLEMENTATION_PLAN.md).
+- [ ] Launch the packaged TUI and Desktop, select an already authenticated
+  supported coding agent, open a real repository, and complete a real task
+  that exercises review and approval behavior.
+- [ ] Verify session sharing, restart/recovery, cancellation, and the relevant
+  permission boundaries with the installed build. Do not substitute fixtures,
+  screenshots, mocked provider responses, or source-tree launches for this
+  journey.
+- [ ] Store a sanitized receipt with release tag, source commit, OS, installed
+  binary versions and hashes, journey result, and evidence links. Keep tokens,
+  private paths, prompts, and provider data out of public artifacts.
+
+### Release disposition
+
+Record each gate as `pass`, `fail`, or `blocked`, with its evidence link and
+owner. Mark a release **distribution verified** only when every consumer gate
+passes. Mark it **daily-driver accepted** only when installed-product
+acceptance also passes. A published release with blocked product acceptance
+must remain visibly labeled as such; passing automation or closing issues does
+not change that disposition.
+
 ## Changes to automation
 
 Assign one workflow or maintainer to each repository write, PR update, merge,
